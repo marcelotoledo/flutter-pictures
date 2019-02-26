@@ -8,8 +8,6 @@ class ImageModel {
   ImageModel.fromJson(Map<String, dynamic> parsedJson) {
     id    = parsedJson['id'];
     url   = parsedJson['url'];
-    title = parsedJson['title'];
-
-    
+    title = parsedJson['title']; 
   }
 }
